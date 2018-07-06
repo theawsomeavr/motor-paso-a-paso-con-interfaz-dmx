@@ -51,23 +51,24 @@ delayMicroseconds(700);
   // put your setup code here, to run once:
 
 }
+int t=500;
 
 void motorpos(byte pos){
   int movepos=map(pos,0,255,0,200*numvueltas);
   while(motor>movepos){
       digitalWrite(5,0);
     digitalWrite(4,1);
-delayMicroseconds(700);
+delayMicroseconds(t);
   digitalWrite(4,0);
-delayMicroseconds(700);
+delayMicroseconds(t);
   motor--;
   }
     while(motor<movepos){
       digitalWrite(5,1);
     digitalWrite(4,1);
-delayMicroseconds(700);
+delayMicroseconds(t);
   digitalWrite(4,0);
-delayMicroseconds(700);
+delayMicroseconds(t);
     motor++;
   }
   
