@@ -1,0 +1,4 @@
+driver a4988
+motor paso a paso
+micro switch final de carrera
+shield dmx para arduino o similar
