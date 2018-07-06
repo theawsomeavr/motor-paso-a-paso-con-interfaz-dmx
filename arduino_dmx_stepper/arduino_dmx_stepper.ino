@@ -16,7 +16,7 @@
 // 28.12.2011 changed to channels 1..3 (RGB) for compatibility with the DmxSerialSend sample.
 // 10.05.2012 added some lines to loop to show how to fall back to a default color when no data was received since some time.
 // - - - - -
-
+//para que el codigo funcione incluya la libreria DMXSerial https://github.com/mathertel/DMXSerial
 #include <DMXSerial.h>
 
 // Constants for demo program
